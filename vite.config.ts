@@ -41,7 +41,7 @@ export default defineConfig({
 		port: 3004,
 		proxy: {
 			"/api": {
-				target: "http://localhost:8000",
+				target: "http://sva_app:8000",
 				changeOrigin: true
 			},
 			"/observability-service": {
